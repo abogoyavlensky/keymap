@@ -3,7 +3,8 @@ Custom keybinding for Linux keyboard
 
 ## Simple setup
 
-*Some of command will require root permissions.*
+*Some of command will require root permissions. Also suppose that you place
+xmodmap repo at the root of you home path.*
 
 ```bash
 $ cd
@@ -28,4 +29,14 @@ for any other.*
 
 ```bash
 $ cat /usr/share/X11/xkb/symbols/ru
+```
+
+### Setup script runs systemd setup
+
+*You could check status of xmodmap service or entirly disable it*
+
+```bash
+$ sudo systemctl status xmodmap.service # Check if it's running
+$ sudo systemctl stop xmodmap.service
+$ sudo systemctl disable xmodmap.service
 ```
