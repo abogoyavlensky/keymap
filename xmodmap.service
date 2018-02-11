@@ -1,9 +1,0 @@
-[Unit]
-Description=Map custom keyboard keys via xmodmap according to current layout
-After=network.target
-
-[Service]
-ExecStart=/opt/xmodmap/xmodmap.py
-
-[Install]
-WantedBy=multi-user.target

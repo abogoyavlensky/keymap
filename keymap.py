@@ -7,16 +7,13 @@ import dbus
 import gobject
 from dbus.mainloop.glib import DBusGMainLoop
 
-DEFAULT_XMODMAP_PATH = '/opt/xmodmap/.Xmodmap'
-ALT_XMODMAP_PATH = '/opt/xmodmap/.Xmodmap_ru'
-# ALT_LOCALE = 'ru,us'
-ALT_LOCALE = 'ru'
+DEFAULT_XMODMAP_PATH = '~/keymap/.Xmodmap'
+ALT_XMODMAP_PATH = '~/keymap/.Xmodmap_ru'
+ALT_LOCALE = 'ru,us'
 
 
 def is_alt_locale():
-    # return ALT_LOCALE in check_output(['setxkbmap', '-query'])
-    return ALT_LOCALE == check_output(
-        ['/opt/xmodmap/xkblayout-state', 'print', '"%s"'])
+    return ALT_LOCALE in check_output(['setxkbmap', '-query'])
 
 def xmodmap():
     file_path = ALT_XMODMAP_PATH if is_alt_locale() else DEFAULT_XMODMAP_PATH
