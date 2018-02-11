@@ -31,3 +31,6 @@ for any other.*
 ```bash
 $ cat /usr/share/X11/xkb/symbols/ru
 ```
+
+### Keyboard preview
+![Keyboard preview](keyboard.png?raw=true "Title")
