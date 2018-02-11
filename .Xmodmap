@@ -1,0 +1,27 @@
+keycode 62 = Mode_switch NoSymbol
+keycode 45 = k K Left Left
+keycode 47 = semicolon colon Left Left
+keycode 32 = o O Up Up
+keycode 46 = l L Down Down
+
+
+
+!keysym semicolon = semicolon colon Right Right
+!keysym l = l L Down Down
+!keysym o = o O Up Up
+!keysym i = i I BackSpace
+!keysym s = s S Home
+!keysym f = f F End
+!keysym e = e E Prior
+!keysym d = d D Next
+!keysym p = p P Delete
+
+! Variant with Caps_lock
+!keycode 62 = Mode_switch NoSymbol
+!keycode 30 = u U Up Up
+!keycode 43 = h H Left Left
+!keycode 44 = j J Down Down
+!keycode 45 = k K Right Right
+
+
+!keycode 45 = Cyrillic_el Cyrillic_EL Left Left
