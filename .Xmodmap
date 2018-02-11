@@ -1,8 +1,21 @@
+! Modificator key
 keycode 62 = Mode_switch NoSymbol
+
+! Arrow keys
 keycode 45 = k K Left Left
 keycode 47 = semicolon colon Right Right
 keycode 32 = o O Up Up
 keycode 46 = l L Down Down
+
+! BackSpace, Insert and Delete
+keycode 44 = j J BackSpace BackSpace
+keycode 31 = i I Insert Insert
+keycode 33 = p P Delete Delete
+
+! Home keys
+
+
+
 
 
 
