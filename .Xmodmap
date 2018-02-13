@@ -15,5 +15,5 @@ keycode 33 = p P Delete Delete
 ! Home keys
 keycode 59 = comma less Prior Prior
 keycode 60 = period greater Next Next
-keycode 39 = s S Home Home
-keycode 40 = d D End End
+keycode 40 = d D Home Home
+keycode 41 = f F End End

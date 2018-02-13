@@ -15,5 +15,5 @@ keycode 33 = Cyrillic_ze Cyrillic_ZE Delete Delete
 ! Home keys
 keycode 59 = Cyrillic_be Cyrillic_BE Prior Prior
 keycode 60 = Cyrillic_yu Cyrillic_YU Next Next
-keycode 39 = Cyrillic_yeru Cyrillic_YERU Home Home
-keycode 40 = Cyrillic_ve Cyrillic_VE End End
+keycode 40 = Cyrillic_ve Cyrillic_VE Home Home
+keycode 41 = Cyrillic_a Cyrillic_A End End
