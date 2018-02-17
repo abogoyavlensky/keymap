@@ -1,7 +1,0 @@
-[Desktop Entry]
-Name=keymap
-GenericName=Update keyboard mapping
-Exec=keymap
-Terminal=false
-Type=Application
-Categories=keymap;xkb;keyboard;
