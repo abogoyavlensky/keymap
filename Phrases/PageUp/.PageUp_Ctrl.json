@@ -1,8 +1,8 @@
 {
-    "usageCount": 0, 
+    "usageCount": 5, 
     "omitTrigger": false, 
     "prompt": false, 
-    "description": "Right_ru", 
+    "description": "PageUp_Ctrl", 
     "abbreviation": {
         "wordChars": "[\\w]", 
         "abbreviations": [], 
@@ -12,8 +12,9 @@
         "triggerInside": false
     }, 
     "hotkey": {
-        "hotKey": "\u06c4", 
+        "hotKey": ",", 
         "modifiers": [
+            "<ctrl>", 
             "<super>"
         ]
     }, 

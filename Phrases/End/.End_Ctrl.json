@@ -1,8 +1,8 @@
 {
-    "usageCount": 0, 
+    "usageCount": 4, 
     "omitTrigger": false, 
     "prompt": false, 
-    "description": "Right_ru", 
+    "description": "End_Ctrl", 
     "abbreviation": {
         "wordChars": "[\\w]", 
         "abbreviations": [], 
@@ -12,8 +12,9 @@
         "triggerInside": false
     }, 
     "hotkey": {
-        "hotKey": "\u06c4", 
+        "hotKey": "m", 
         "modifiers": [
+            "<ctrl>", 
             "<super>"
         ]
     }, 

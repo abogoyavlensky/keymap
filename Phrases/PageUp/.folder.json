@@ -1,8 +1,5 @@
 {
     "usageCount": 0, 
-    "omitTrigger": false, 
-    "prompt": false, 
-    "description": "Right_ru", 
     "abbreviation": {
         "wordChars": "[\\w]", 
         "abbreviations": [], 
@@ -11,21 +8,16 @@
         "backspace": true, 
         "triggerInside": false
     }, 
+    "modes": [], 
+    "title": "PageUp", 
     "hotkey": {
-        "hotKey": "\u06c4", 
-        "modifiers": [
-            "<super>"
-        ]
+        "hotKey": null, 
+        "modifiers": []
     }, 
-    "modes": [
-        3
-    ], 
-    "showInTrayMenu": false, 
-    "matchCase": false, 
     "filter": {
         "regex": null, 
         "isRecursive": false
     }, 
-    "type": "phrase", 
-    "sendMode": "kb"
+    "type": "folder", 
+    "showInTrayMenu": false
 }

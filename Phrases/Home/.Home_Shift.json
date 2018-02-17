@@ -1,8 +1,8 @@
 {
-    "usageCount": 0, 
+    "usageCount": 5, 
     "omitTrigger": false, 
     "prompt": false, 
-    "description": "Right_ru", 
+    "description": "Home_Shift", 
     "abbreviation": {
         "wordChars": "[\\w]", 
         "abbreviations": [], 
@@ -12,8 +12,9 @@
         "triggerInside": false
     }, 
     "hotkey": {
-        "hotKey": "\u06c4", 
+        "hotKey": "n", 
         "modifiers": [
+            "<shift>", 
             "<super>"
         ]
     }, 
