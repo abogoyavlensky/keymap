@@ -7,10 +7,10 @@
 First of all you should install `CompizConfig Settings Manager`:
 
 ```bash
-$ sudo apt-get install sudo apt-get install compizconfig-settings-manager
+$ sudo apt-get install compizconfig-settings-manager
 ```
 
-Open it, got to "Ubuntu Unity Plugin" and disable or override keybindings
+Open it, go to `Ubuntu Unity Plugin` and disable or override keybindings
 for super key such as:
 
 * General->Key to lock the screen
@@ -18,7 +18,7 @@ for super key such as:
 
 ### Make Caps Lock as Super
 
-Then install `Gnome Tweak Tools``:add the program in 
+Then install `Gnome Tweak Tools`
 
 ```bash
 $ sudo apt-get install gnome-tweak-tool
@@ -40,7 +40,7 @@ Open the program and disable default bindings for Super key inside AutoKey
 itself:
 
 * Edit->Preferences->Special Hotkeys
-* Make clear all of them
+* Make clean all of them
 
 Copy predefined keybindings from current repository:
 
@@ -58,6 +58,7 @@ autostart:
 ### Keyboard preview
 
 That's it. Now your keyboard key bindings should look like:
+
 ![Keyboard preview](keyboard.png?raw=true "Title")
 
 *Arrow keys, backspace and delete also work for russian layout but without 
@@ -65,13 +66,13 @@ other modifiers.*
 
 ## Additional info
 
-### To know keycode usual run
+### To know keycode usual keys run
 
 ```bash
 $ xev -event keyboard
 ```
 
-### To know name of special key please check wiki page of AutoKey
+### To know name of special keys please check wiki page of AutoKey
 
 https://github.com/autokey/autokey/wiki/Special-Keys
 
