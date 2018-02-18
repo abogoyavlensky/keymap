@@ -1,7 +1,4 @@
-# Keymap advices
-Custom keybinding for Linux keyboard
-
-## Setup instruction
+# Setup instruction
 
 *Tested on Ubuntu 16.04 but also should work on any linux*
 
