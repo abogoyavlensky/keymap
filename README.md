@@ -63,6 +63,8 @@ autostart:
 That's it. Now your keyboard key bindings should look like:
 ![Keyboard preview](keyboard.png?raw=true "Title")
 
+*Arrow keys, backspace and delete also work for russian layout but without 
+other modifiers.*
 
 ## Additional info
 
