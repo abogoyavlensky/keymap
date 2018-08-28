@@ -61,8 +61,7 @@ That's it. Now your keyboard key bindings should look like:
 
 ![Keyboard preview](keyboard.png?raw=true "Title")
 
-*Arrow keys, backspace and delete also work for russian layout but without 
-other modifiers.*
+*All key bindings also work for Russian layout.*
 
 ## Additional info
 
@@ -85,7 +84,8 @@ different;
 
 ### TODO and caveats:
 
-* bind `Insert` key to `u` for example;
+* rebind `Insert` to more convenient button;
 * some of helpful ubuntu system key bindings still doesn't work with new arrow 
 keys, for example: `<ctrl>+<alt>+<down>` to move current window to bottom 
-workspace and so on.
+workspace and so on;
+* switching between language layouts take a bit time to enable keybindings.
