@@ -63,7 +63,7 @@ without delay after switching between them.*
 
 ## Additional info
 
-### To know keycode usual keys run
+### To know keycode of usual keys run following command and press the key
 
 ```bash
 $ xev -event keyboard
