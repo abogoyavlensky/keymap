@@ -13,6 +13,7 @@ but you could change any of them on your own using current example.*
 * Ubuntu 18.04
 * GNOME Tweaks
 * AutoKey
+* Russian layout set first
 
 *Tested on [Pop!_OS](https://system76.com/pop) (based on Ubuntu 18.04).
 But also should work on clean Ubuntu 18.04 the same way.*
@@ -94,4 +95,5 @@ https://github.com/autokey/autokey/wiki/Special-Keys
 
 * some of helpful ubuntu system key bindings don't work with new arrow
 keys. For example, you should still use ordinary arrows to move
-current window to bottom workspace and so on: `<ctrl>+<alt>+<down>`.
+current window to bottom workspace and so on: `<ctrl>+<alt>+<down>`;
+* for english layout only you should change `hotKey` to normal english keycodes.
