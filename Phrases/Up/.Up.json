@@ -1,5 +1,5 @@
 {
-    "usageCount": 5, 
+    "usageCount": 0, 
     "omitTrigger": false, 
     "prompt": false, 
     "description": "Up", 
@@ -12,9 +12,9 @@
         "triggerInside": false
     }, 
     "hotkey": {
-        "hotKey": "i", 
+        "hotKey": "\u06db", 
         "modifiers": [
-            "<super>"
+            "<hyper>"
         ]
     }, 
     "modes": [

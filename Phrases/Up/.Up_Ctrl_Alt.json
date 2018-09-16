@@ -1,5 +1,5 @@
 {
-    "usageCount": 12, 
+    "usageCount": 0, 
     "omitTrigger": false, 
     "prompt": false, 
     "description": "Up_Ctrl_Alt", 
@@ -12,11 +12,11 @@
         "triggerInside": false
     }, 
     "hotkey": {
-        "hotKey": "i", 
+        "hotKey": "\u06db", 
         "modifiers": [
             "<alt>", 
             "<ctrl>", 
-            "<super>"
+            "<hyper>"
         ]
     }, 
     "modes": [

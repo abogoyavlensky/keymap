@@ -1,22 +1,19 @@
 # Setup instruction
 
-*Tested on Ubuntu 16.04 but also should work on any linux*
+*Tested on Pop!_OS (based on Ubuntu 18.04). But also should work
+on clean Ubuntu 18.04 the same way*
 
-### Disable default behavior of Super key
+### Slightly change default behavior of Super key
 
-First of all you should install `CompizConfig Settings Manager`:
+First of all we are going to change couple of key binding in system settings:
+*Settings -> Devices -> Keyboard*
 
-```bash
-$ sudo apt-get install compizconfig-settings-manager
+```
+Lock screen -> Shift+Ctrl+L
+Close window -> Shift+Ctrl+W
 ```
 
-Open it, go to `Ubuntu Unity Plugin` and disable or override keybindings
-for super key such as:
-
-* General->Key to lock the screen
-* Launcher->Key to show the Dash, Launcher and Help Overlay
-
-### Make Caps Lock as Super
+### Make Caps Lock as Hyper
 
 Then install `Gnome Tweak Tools`
 
@@ -26,7 +23,7 @@ $ sudo apt-get install gnome-tweak-tool
 
 Open tweak tools and chose settings:
 
-* Typing->Caps Lock key behavior->Make Caps Lock an additional Super
+* Typing->Caps Lock key behavior->Make Caps Lock an additional Hyper
 
 ### Change keyboard key bindings
 
@@ -36,7 +33,7 @@ Install `AutoKey`:
 $ sudo apt-get install autokey-gtk
 ```
 
-Open the program and disable default bindings for Super key inside AutoKey 
+Open the program and disable default bindings for Hyper key inside AutoKey
 itself:
 
 * Edit->Preferences->Special Hotkeys
@@ -46,13 +43,13 @@ Copy predefined keybindings from current repository:
 
 ```bash
 $ git clone https://github.com/abogoyavlensky/keymap.git
-$ cp -a keymap/Phrases/. ~/.config/autokey/data/My\ Phrases
+$ ln -s /full/path/to/keymap/Phrases /full/path/to/.config/autokey/data/Phrases
 ```
 
-Also nice to have `AutoHokey` always running. For that please put it to 
+Also nice to have `AutoHokey` always running. For that, please put it to
 autostart:
 
-* Open `Gnome Tweak Tools` and add the program in the tab called 
+* Open `Gnome Tweak Tools` and add the program in the tab called
 `Startup Application`.
 
 ### Keyboard preview
@@ -61,7 +58,8 @@ That's it. Now your keyboard key bindings should look like:
 
 ![Keyboard preview](keyboard.png?raw=true "Title")
 
-*All key bindings also work for Russian layout.*
+*All key bindings also work for any additional layout on your machine
+without delay after switching between them.*
 
 ## Additional info
 
@@ -75,17 +73,15 @@ $ xev -event keyboard
 
 https://github.com/autokey/autokey/wiki/Special-Keys
 
-### Useful links
+### Heavily inspired by
 
 * http://tonsky.me/blog/cursor-keys/ - article inspired me to rebind keys;
-* https://github.com/madslundt/keybindings - aproach for Linux but slightly 
+* https://github.com/madslundt/keybindings - aproach for Linux but slightly
 different;
 * http://www.keyboard-layout-editor.com/ - help with makeing keyboard picture.
 
-### TODO and caveats:
+### Caveats:
 
-* rebind `Insert` to more convenient button;
-* some of helpful ubuntu system key bindings still doesn't work with new arrow 
-keys, for example: `<ctrl>+<alt>+<down>` to move current window to bottom 
-workspace and so on;
-* switching between language layouts take a bit time to enable keybindings.
+* some of helpful ubuntu system key bindings don't work with new arrow
+keys, for example: `<ctrl>+<alt>+<down>` to move current window to bottom
+workspace and so on, and you should still use ordinary arrows for that.

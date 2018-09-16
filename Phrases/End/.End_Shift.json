@@ -1,5 +1,5 @@
 {
-    "usageCount": 5, 
+    "usageCount": 0, 
     "omitTrigger": false, 
     "prompt": false, 
     "description": "End_Shift", 
@@ -12,10 +12,10 @@
         "triggerInside": false
     }, 
     "hotkey": {
-        "hotKey": ";", 
+        "hotKey": "\u06d6", 
         "modifiers": [
             "<shift>", 
-            "<super>"
+            "<hyper>"
         ]
     }, 
     "modes": [

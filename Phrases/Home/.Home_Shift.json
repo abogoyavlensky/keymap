@@ -1,5 +1,5 @@
 {
-    "usageCount": 5, 
+    "usageCount": 0, 
     "omitTrigger": false, 
     "prompt": false, 
     "description": "Home_Shift", 
@@ -12,10 +12,10 @@
         "triggerInside": false
     }, 
     "hotkey": {
-        "hotKey": "h", 
+        "hotKey": "\u06d2", 
         "modifiers": [
             "<shift>", 
-            "<super>"
+            "<hyper>"
         ]
     }, 
     "modes": [

@@ -1,5 +1,5 @@
 {
-    "usageCount": 5, 
+    "usageCount": 0, 
     "omitTrigger": false, 
     "prompt": false, 
     "description": "PageUp", 
@@ -12,9 +12,9 @@
         "triggerInside": false
     }, 
     "hotkey": {
-        "hotKey": ",", 
+        "hotKey": "\u06c2",
         "modifiers": [
-            "<super>"
+            "<hyper>"
         ]
     }, 
     "modes": [

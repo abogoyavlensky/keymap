@@ -1,6 +1,6 @@
 {
 
-    "usageCount": 6, 
+    "usageCount": 0, 
     "omitTrigger": false, 
     "prompt": false, 
     "description": "Up_Shift", 
@@ -13,10 +13,10 @@
         "triggerInside": false
     }, 
     "hotkey": {
-        "hotKey": "i", 
+        "hotKey": "\u06db", 
         "modifiers": [
             "<shift>", 
-            "<super>"
+            "<hyper>"
         ]
     }, 
     "modes": [

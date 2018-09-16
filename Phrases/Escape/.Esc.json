@@ -12,9 +12,9 @@
         "triggerInside": false
     }, 
     "hotkey": {
-        "hotKey": "q", 
+        "hotKey": "\u06ca",
         "modifiers": [
-            "<super>"
+            "<hyper>"
         ]
     }, 
     "modes": [
