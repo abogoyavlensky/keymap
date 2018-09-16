@@ -1,31 +1,44 @@
+# Keyboard preview
+
+![Keyboard preview](keyboard-layout.png?raw=true "Title")
+
+*Our aim to have a keyboard which would be convenient for typing without distraction.
+In current instruction we will get keybindings look like in preview,
+but you could change any of them on your own using current example.*
+
 # Setup instruction
 
-*Tested on Pop!_OS (based on Ubuntu 18.04). But also should work
-on clean Ubuntu 18.04 the same way*
+## Requirements
 
-### Slightly change default behavior of Super key
+* Ubuntu 18.04
+* GNOME Tweaks
+* AutoKey
 
-First of all we are going to change couple of key binding in system settings:
-*Settings -> Devices -> Keyboard*
+*Tested on [Pop!_OS](https://system76.com/pop) (based on Ubuntu 18.04).
+But also should work on clean Ubuntu 18.04 the same way.*
+
+## Change keys for a couple of default actions
+
+*Settings -> Devices -> Keyboard:*
 
 ```
 Lock screen -> Shift+Ctrl+L
 Close window -> Shift+Ctrl+W
 ```
 
-### Make Caps Lock as Hyper
+## Make Caps Lock as Hyper
 
-Then install `Gnome Tweak Tools`
+Then install `GNOME Tweaks`
 
 ```bash
 $ sudo apt-get install gnome-tweak-tool
 ```
 
-Open tweak tools and chose settings:
+Open tweak tools and choose settings:
 
 * Typing->Caps Lock key behavior->Make Caps Lock an additional Hyper
 
-### Change keyboard key bindings
+## Change keyboard key bindings
 
 Install `AutoKey`:
 
@@ -39,49 +52,46 @@ itself:
 * Edit->Preferences->Special Hotkeys
 * Make clean all of them
 
-Copy predefined keybindings from current repository:
+Add symlink for predefined keybindings from current repository:
 
 ```bash
 $ git clone https://github.com/abogoyavlensky/keymap.git
 $ ln -s /full/path/to/keymap/Phrases /full/path/to/.config/autokey/data/Phrases
 ```
 
-Also nice to have `AutoHokey` always running. For that, please put it to
+Also nice to have `AutoKey` always running. For that, please put it to
 autostart:
 
 * Open `Gnome Tweak Tools` and add the program in the tab called
 `Startup Application`.
 
-### Keyboard preview
+## That's it
 
-That's it. Now your keyboard key bindings should look like:
-
-![Keyboard preview](keyboard.png?raw=true "Title")
+Now your keyboard should look like on preview above.
 
 *All key bindings also work for any additional layout on your machine
 without delay after switching between them.*
 
-## Additional info
+# Additional info
 
-### To know keycode of usual keys run following command and press the key
+## To know keycode of usual keys run following command and press the key
 
 ```bash
 $ xev -event keyboard
 ```
 
-### To know name of special keys please check wiki page of AutoKey
+## To know name of special keys please check wiki page of AutoKey
 
 https://github.com/autokey/autokey/wiki/Special-Keys
 
-### Heavily inspired by
+## Useful links
 
-* http://tonsky.me/blog/cursor-keys/ - article inspired me to rebind keys;
-* https://github.com/madslundt/keybindings - aproach for Linux but slightly
-different;
-* http://www.keyboard-layout-editor.com/ - help with makeing keyboard picture.
+* http://tonsky.me/blog/cursor-keys/ - inspiration;
+* https://github.com/madslundt/keybindings - different approach for Linux;
+* http://www.keyboard-layout-editor.com/ - keyboard picture.
 
-### Caveats:
+## Caveats:
 
 * some of helpful ubuntu system key bindings don't work with new arrow
-keys, for example: `<ctrl>+<alt>+<down>` to move current window to bottom
-workspace and so on, and you should still use ordinary arrows for that.
+keys. For example, you should still use ordinary arrows to move
+current window to bottom workspace and so on: `<ctrl>+<alt>+<down>`.
