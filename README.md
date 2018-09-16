@@ -1,34 +1,44 @@
+# Keyboard preview
+
+![Keyboard preview](keyboard-layout.png?raw=true "Title")
+
+*Our aim to have a keyboard which would be convenient for typing without distraction.
+In current instruction we will get keybindings look like in preview,
+but you could change any of them on your own using current example.*
+
 # Setup instruction
 
-*Tested on Ubuntu 16.04 but also should work on any linux*
+## Requirements
 
-### Disable default behavior of Super key
+* Ubuntu 18.04
+* GNOME Tweaks
+* AutoKey
 
-First of all you should install `CompizConfig Settings Manager`:
+*Tested on [Pop!_OS](https://system76.com/pop) (based on Ubuntu 18.04).
+But also should work on clean Ubuntu 18.04 the same way.*
 
-```bash
-$ sudo apt-get install compizconfig-settings-manager
+## Change keys for a couple of default actions
+
+*Settings -> Devices -> Keyboard:*
+
+```
+Lock screen -> Shift+Ctrl+L
+Close window -> Shift+Ctrl+W
 ```
 
-Open it, go to `Ubuntu Unity Plugin` and disable or override keybindings
-for super key such as:
+## Make Caps Lock as Hyper
 
-* General->Key to lock the screen
-* Launcher->Key to show the Dash, Launcher and Help Overlay
-
-### Make Caps Lock as Super
-
-Then install `Gnome Tweak Tools`
+Then install `GNOME Tweaks`
 
 ```bash
 $ sudo apt-get install gnome-tweak-tool
 ```
 
-Open tweak tools and chose settings:
+Open tweak tools and choose settings:
 
-* Typing->Caps Lock key behavior->Make Caps Lock an additional Super
+* Typing->Caps Lock key behavior->Make Caps Lock an additional Hyper
 
-### Change keyboard key bindings
+## Change keyboard key bindings
 
 Install `AutoKey`:
 
@@ -36,56 +46,52 @@ Install `AutoKey`:
 $ sudo apt-get install autokey-gtk
 ```
 
-Open the program and disable default bindings for Super key inside AutoKey 
+Open the program and disable default bindings for Hyper key inside AutoKey
 itself:
 
 * Edit->Preferences->Special Hotkeys
 * Make clean all of them
 
-Copy predefined keybindings from current repository:
+Add symlink for predefined keybindings from current repository:
 
 ```bash
 $ git clone https://github.com/abogoyavlensky/keymap.git
-$ cp -a keymap/Phrases/. ~/.config/autokey/data/My\ Phrases
+$ ln -s /full/path/to/keymap/Phrases /full/path/to/.config/autokey/data/Phrases
 ```
 
-Also nice to have `AutoHokey` always running. For that please put it to 
+Also nice to have `AutoKey` always running. For that, please put it to
 autostart:
 
-* Open `Gnome Tweak Tools` and add the program in the tab called 
+* Open `Gnome Tweak Tools` and add the program in the tab called
 `Startup Application`.
 
-### Keyboard preview
+## That's it
 
-That's it. Now your keyboard key bindings should look like:
+Now your keyboard should look like on preview above.
 
-![Keyboard preview](keyboard.png?raw=true "Title")
+*All key bindings also work for any additional layout on your machine
+without delay after switching between them.*
 
-*All key bindings also work for Russian layout.*
+# Additional info
 
-## Additional info
-
-### To know keycode usual keys run
+## To know keycode of usual keys run following command and press the key
 
 ```bash
 $ xev -event keyboard
 ```
 
-### To know name of special keys please check wiki page of AutoKey
+## To know name of special keys please check wiki page of AutoKey
 
 https://github.com/autokey/autokey/wiki/Special-Keys
 
-### Useful links
+## Useful links
 
-* http://tonsky.me/blog/cursor-keys/ - article inspired me to rebind keys;
-* https://github.com/madslundt/keybindings - aproach for Linux but slightly 
-different;
-* http://www.keyboard-layout-editor.com/ - help with makeing keyboard picture.
+* http://tonsky.me/blog/cursor-keys/ - inspiration;
+* https://github.com/madslundt/keybindings - different approach for Linux;
+* http://www.keyboard-layout-editor.com/ - keyboard picture.
 
-### TODO and caveats:
+## Caveats:
 
-* rebind `Insert` to more convenient button;
-* some of helpful ubuntu system key bindings still doesn't work with new arrow 
-keys, for example: `<ctrl>+<alt>+<down>` to move current window to bottom 
-workspace and so on;
-* switching between language layouts take a bit time to enable keybindings.
+* some of helpful ubuntu system key bindings don't work with new arrow
+keys. For example, you should still use ordinary arrows to move
+current window to bottom workspace and so on: `<ctrl>+<alt>+<down>`.

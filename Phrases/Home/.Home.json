@@ -1,5 +1,5 @@
 {
-    "usageCount": 14, 
+    "usageCount": 0, 
     "omitTrigger": false, 
     "prompt": false, 
     "description": "Home", 
@@ -12,9 +12,9 @@
         "triggerInside": false
     }, 
     "hotkey": {
-        "hotKey": "h", 
+        "hotKey": "\u06d2", 
         "modifiers": [
-            "<super>"
+            "<hyper>"
         ]
     }, 
     "modes": [

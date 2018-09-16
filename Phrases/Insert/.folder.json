@@ -1,8 +1,5 @@
 {
     "usageCount": 0, 
-    "omitTrigger": false, 
-    "prompt": false, 
-    "description": "End_Shift", 
     "abbreviation": {
         "wordChars": "[\\w]", 
         "abbreviations": [], 
@@ -11,22 +8,16 @@
         "backspace": true, 
         "triggerInside": false
     }, 
+    "modes": [], 
+    "title": "Insert", 
     "hotkey": {
-        "hotKey": "\u06d6", 
-        "modifiers": [
-            "<shift>", 
-            "<hyper>"
-        ]
+        "hotKey": null, 
+        "modifiers": []
     }, 
-    "modes": [
-        3
-    ], 
-    "showInTrayMenu": false, 
-    "matchCase": false, 
     "filter": {
         "regex": null, 
         "isRecursive": false
     }, 
-    "type": "phrase", 
-    "sendMode": "kb"
+    "type": "folder", 
+    "showInTrayMenu": false
 }

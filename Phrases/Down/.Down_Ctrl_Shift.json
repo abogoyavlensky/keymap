@@ -2,7 +2,7 @@
     "usageCount": 0, 
     "omitTrigger": false, 
     "prompt": false, 
-    "description": "Up_Shift_Alt", 
+    "description": "Down_Ctrl_Shift", 
     "abbreviation": {
         "wordChars": "[\\w]", 
         "abbreviations": [], 
@@ -12,9 +12,9 @@
         "triggerInside": false
     }, 
     "hotkey": {
-        "hotKey": "\u06db", 
+        "hotKey": "\u06cc", 
         "modifiers": [
-            "<alt>", 
+            "<ctrl>", 
             "<shift>", 
             "<hyper>"
         ]

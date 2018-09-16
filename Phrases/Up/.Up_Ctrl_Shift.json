@@ -1,5 +1,5 @@
 {
-    "usageCount": 1, 
+    "usageCount": 0, 
     "omitTrigger": false, 
     "prompt": false, 
     "description": "Up_Ctrl_Shift", 
@@ -12,11 +12,11 @@
         "triggerInside": false
     }, 
     "hotkey": {
-        "hotKey": "i", 
+        "hotKey": "\u06db", 
         "modifiers": [
             "<ctrl>", 
             "<shift>", 
-            "<super>"
+            "<hyper>"
         ]
     }, 
     "modes": [

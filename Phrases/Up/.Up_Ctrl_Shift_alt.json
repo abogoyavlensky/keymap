@@ -12,12 +12,12 @@
         "triggerInside": false
     }, 
     "hotkey": {
-        "hotKey": "i", 
+        "hotKey": "\u06db", 
         "modifiers": [
             "<alt>", 
             "<ctrl>", 
             "<shift>", 
-            "<super>"
+            "<hyper>"
         ]
     }, 
     "modes": [
