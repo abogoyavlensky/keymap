@@ -1,5 +1,5 @@
 {
-    "usageCount": 0, 
+    "usageCount": 14, 
     "omitTrigger": false, 
     "prompt": false, 
     "description": "End", 
@@ -12,7 +12,7 @@
         "triggerInside": false
     }, 
     "hotkey": {
-        "hotKey": "\u06d6", 
+        "hotKey": ";", 
         "modifiers": [
             "<hyper>"
         ]

@@ -1,5 +1,5 @@
 {
-    "usageCount": 0, 
+    "usageCount": 12, 
     "omitTrigger": false, 
     "prompt": false, 
     "description": "Left_Ctrl_Alt", 
@@ -12,7 +12,7 @@
         "triggerInside": false
     }, 
     "hotkey": {
-        "hotKey": "\u06cf", 
+        "hotKey": "j", 
         "modifiers": [
             "<alt>", 
             "<ctrl>", 

@@ -1,5 +1,5 @@
 {
-    "usageCount": 0, 
+    "usageCount": 4, 
     "omitTrigger": false, 
     "prompt": false, 
     "description": "Home_Ctrl", 
@@ -12,7 +12,7 @@
         "triggerInside": false
     }, 
     "hotkey": {
-        "hotKey": "\u06d2", 
+        "hotKey": "h", 
         "modifiers": [
             "<ctrl>", 
             "<hyper>"
