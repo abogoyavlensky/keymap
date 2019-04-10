@@ -6,14 +6,13 @@
 In current instruction we will get keybindings look like in preview,
 but you could change any of them on your own using current example.*
 
-# Setup instruction
+# Setup instruction for Linux
 
 ## Requirements
 
 * Ubuntu 18.04
 * GNOME Tweaks
 * AutoKey
-* Russian layout set first
 
 *Tested on [Pop!_OS](https://system76.com/pop) (based on Ubuntu 18.04).
 But also should work on clean Ubuntu 18.04 the same way.*
@@ -66,7 +65,17 @@ autostart:
 * Open `Gnome Tweak Tools` and add the program in the tab called
 `Startup Application`.
 
-## That's it
+# Setup instruction for macOS
+
+## Requirements
+* Tested on macOS 10.14.4
+* Install [Karabiner](https://pqrs.org/osx/karabiner/index.html)
+
+## Import configuration
+
+[Click this link to import configuration into Karabiner](karabiner://karabiner/assets/complex_modifications/import?url=https://raw.githubusercontent.com/abogoyavlensky/keymap/master/Karabiner/keymap.json)
+
+# That's it
 
 Now your keyboard should look like on preview above.
 
@@ -93,7 +102,6 @@ https://github.com/autokey/autokey/wiki/Special-Keys
 
 ## Caveats:
 
-* some of helpful ubuntu system key bindings don't work with new arrow
+* some of helpful Ubuntu system key bindings don't work with new arrow
 keys. For example, you should still use ordinary arrows to move
-current window to bottom workspace and so on: `<ctrl>+<alt>+<down>`;
-* for english layout only you should change `hotKey` to normal english keycodes.
+current window to bottom workspace and so on: `<ctrl>+<alt>+<down>`

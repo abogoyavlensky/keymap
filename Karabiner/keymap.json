@@ -1,5 +1,5 @@
 {
-    "title": "Caps Lock (Fn) + IJKL + H:UO<>Q",
+    "title": "Caps Lock (Fn) + ijkl + h;uo,.q",
     "rules": [
         {
             "description": "Caps Lock to Fn",
@@ -23,7 +23,7 @@
             ]
         },
         {
-            "description": "Fn + I/J/K/L to Arrow Keys",
+            "description": "Fn + i/j/k/l to Arrow Keys",
             "manipulators": [
                 {
                     "type": "basic",
@@ -104,7 +104,7 @@
             ]
         },
         {
-            "description": "Fn + H to Home",
+            "description": "Fn + h/; to Home/End",
             "manipulators": [
                 {
                     "type": "basic",
@@ -124,11 +124,30 @@
                             "key_code": "home"
                         }
                     ]
+                },
+                {
+                    "type": "basic",
+                    "from": {
+                        "key_code": ";",
+                        "modifiers": {
+                            "mandatory": [
+                                "fn"
+                            ],
+                            "optional": [
+                                "any"
+                            ]
+                        }
+                    },
+                    "to": [
+                        {
+                            "key_code": "end"
+                        }
+                    ]
                 }
             ]
         },
         {
-            "description": "Fn + U to Delete",
+            "description": "Fn + u/o to Backspace/Delete",
             "manipulators": [
                 {
                     "type": "basic",
@@ -146,6 +165,111 @@
                     "to": [
                         {
                             "key_code": "delete_or_backspace"
+                        }
+                    ]
+                },
+                {
+                    "type": "basic",
+                    "from": {
+                        "key_code": "o",
+                        "modifiers": {
+                            "mandatory": [
+                                "fn"
+                            ],
+                            "optional": [
+                                "any"
+                            ]
+                        }
+                    },
+                    "to": [
+                        {
+                            "key_code": "delete_forward"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "description": "Fn + ,/./n to PageUp/PageDown/Insert",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "from": {
+                        "key_code": ",",
+                        "modifiers": {
+                            "mandatory": [
+                                "fn"
+                            ],
+                            "optional": [
+                                "any"
+                            ]
+                        }
+                    },
+                    "to": [
+                        {
+                            "key_code": "page_up"
+                        }
+                    ]
+                },
+                {
+                    "type": "basic",
+                    "from": {
+                        "key_code": ".",
+                        "modifiers": {
+                            "mandatory": [
+                                "fn"
+                            ],
+                            "optional": [
+                                "any"
+                            ]
+                        }
+                    },
+                    "to": [
+                        {
+                            "key_code": "page_down"
+                        }
+                    ]
+                },
+                {
+                    "type": "basic",
+                    "from": {
+                        "key_code": "n",
+                        "modifiers": {
+                            "mandatory": [
+                                "fn"
+                            ],
+                            "optional": [
+                                "any"
+                            ]
+                        }
+                    },
+                    "to": [
+                        {
+                            "key_code": "insert"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "description": "Fn + q to Escape",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "from": {
+                        "key_code": "q",
+                        "modifiers": {
+                            "mandatory": [
+                                "fn"
+                            ],
+                            "optional": [
+                                "any"
+                            ]
+                        }
+                    },
+                    "to": [
+                        {
+                            "key_code": "escape"
                         }
                     ]
                 }
