@@ -195,7 +195,7 @@
                 {
                     "type": "basic",
                     "from": {
-                        "key_code": ",",
+                        "key_code": "comma",
                         "modifiers": {
                             "mandatory": [
                                 "fn"
@@ -214,7 +214,7 @@
                 {
                     "type": "basic",
                     "from": {
-                        "key_code": ".",
+                        "key_code": "period",
                         "modifiers": {
                             "mandatory": [
                                 "fn"
