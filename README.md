@@ -80,7 +80,7 @@ Copy the next link to the browser to import configuration into Karabiner:
 
 Now your keyboard should look like on preview above.
 
-*All key bindings also work for any additional layout on your machine
+;u;;;;;;*All key bindings also work for any additional layout on your machine
 without delay after switching between them.*
 
 # Additional info
