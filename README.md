@@ -73,7 +73,8 @@ autostart:
 
 ## Import configuration
 
-[Click this link to import configuration into Karabiner](karabiner://karabiner/assets/complex_modifications/import?url=https://raw.githubusercontent.com/abogoyavlensky/keymap/master/Karabiner/keymap.json)
+Copy the next link to the browser to import configuration into Karabiner:
+`karabiner://karabiner/assets/complex_modifications/import?url=https://raw.githubusercontent.com/abogoyavlensky/keymap/master/Karabiner/keymap.json`
 
 # That's it
 
