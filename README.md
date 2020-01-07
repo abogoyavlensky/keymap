@@ -106,3 +106,9 @@ https://github.com/autokey/autokey/wiki/Special-Keys
 * some of helpful Ubuntu system key bindings don't work with new arrow
 keys. For example, you should still use ordinary arrows to move
 current window to bottom workspace and so on: `<ctrl>+<alt>+<down>`
+
+
+
+for f in *.txt; do cp "$f" "$(echo "$f" | sed s/.txt/_en.txt/)"; done
+
+for f in *.json; do cp "$f" "$(echo "$f" | sed s/.json/_en.json/)"; done
