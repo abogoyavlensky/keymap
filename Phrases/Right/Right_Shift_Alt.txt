@@ -1,1 +1,1 @@
-<shift>+<alt>+<right>
+<shift>+<ctrl>+<right>

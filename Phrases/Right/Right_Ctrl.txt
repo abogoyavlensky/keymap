@@ -1,1 +1,1 @@
-<ctrl>+<right>
+<end>
