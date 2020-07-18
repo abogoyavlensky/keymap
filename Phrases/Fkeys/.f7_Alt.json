@@ -2,7 +2,7 @@
     "usageCount": 0, 
     "omitTrigger": false, 
     "prompt": false, 
-    "description": "f1_Ctrl", 
+    "description": "f7_Alt", 
     "abbreviation": {
         "wordChars": "[\\w]", 
         "abbreviations": [], 
@@ -12,10 +12,10 @@
         "triggerInside": false
     }, 
     "hotkey": {
-        "hotKey": "1", 
+        "hotKey": "7", 
         "modifiers": [
-            "<hyper>",
-            "<ctrl>"
+            "<alt>", 
+            "<hyper>"
         ]
     }, 
     "modes": [
