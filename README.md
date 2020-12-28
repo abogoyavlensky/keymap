@@ -36,7 +36,14 @@ $ sudo apt-get install gnome-tweak-tool
 
 Open tweak tools and choose settings:
 
-* Typing->Caps Lock key behavior->Make Caps Lock an additional Hyper
+* Typing -> Caps Lock key behavior -> Make Caps Lock an additional Hyper
+
+
+## Remap: Ctrl -> Alt, Alt -> Win, Win -> Ctrl
+Open tweak tools and choose settings:
+
+* Typing -> Alt/Win key behavior -> Ctrl is mapped to Alt; Alt is mapped to Win
+
 
 ## Change keyboard key bindings
 
