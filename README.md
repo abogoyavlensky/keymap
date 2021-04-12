@@ -27,7 +27,6 @@ Open tweak tools and choose settings in
 
 ## Make Control as Win
 
-Open `GNOME Tweaks`
 
 Open tweak tools and choose settings in 
 "Keyboard & Mouse" -> "Additional Layout Options" -> "Alt/Win behavior":
@@ -64,7 +63,7 @@ After that press `Apply`. And key mapping should work immediatly.
 If you want to make it default on system start enable `Autoload` switch.
 
 
-# Setup instruction for Linux with Autokey
+# Setup instruction for Linux with Autokey (DEPRECATED)
 
 ## Requirements
 
