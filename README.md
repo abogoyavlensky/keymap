@@ -171,6 +171,6 @@ https://github.com/autokey/autokey/wiki/Special-Keys
 
 ## Caveats:
 
-* some of helpful Ubuntu system key bindings don't work with new arrow
+* in Autokey some of helpful Ubuntu system key bindings don't work with new arrow
 keys. For example, you should still use ordinary arrows to move
-current window to bottom workspace and so on: `<ctrl>+<alt>+<down>`
+current window to bottom workspace and so on: `<ctrl>+<alt>+<down>`. 
