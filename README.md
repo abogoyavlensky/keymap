@@ -7,7 +7,9 @@ In current instruction we will get keybindings look like in preview,
 but you could change any of them on your own using current example.*
 
 
-# Setup instruction for Linux with 
+# Setup instruction for Linux with Key Mapper
+
+*Key Mapper link: https://github.com/sezanzeb/key-mapper*
 
 ## Disable Caps Lock
 
