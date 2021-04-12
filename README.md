@@ -6,7 +6,63 @@
 In current instruction we will get keybindings look like in preview,
 but you could change any of them on your own using current example.*
 
-# Setup instruction for Linux
+
+# Setup instruction for Linux with 
+
+## Disable Caps Lock
+
+Then install `GNOME Tweaks`
+
+```bash
+$ sudo apt-get install gnome-tweak-tool
+```
+
+Open tweak tools and choose settings in
+"Keyboard & Mouse" -> "Additional Layout Options" -> "Caps Lock behavior":
+
+* "Caps Lock is disabled"
+
+
+## Make Control as Win
+
+Open `GNOME Tweaks`
+
+Open tweak tools and choose settings in 
+"Keyboard & Mouse" -> "Additional Layout Options" -> "Alt/Win behavior":
+
+* "Ctrl is mapped to Alt; Alt is mapped to Win"
+
+## Install the latest Key Mapper
+
+```bash
+sudo apt install git python3-setuptools
+wget https://github.com/sezanzeb/key-mapper/releases/download/0.8.1/key-mapper-0.8.1.deb
+sudo dpkg -i key-mapper-0.8.1.deb
+```
+
+## Configure Key Mapper
+
+Create new preset with any name you choose. 
+Then copy text from config from file of this repo:
+
+```bash 
+cat key-mapper/presets/USB-HID Keyboard/Andrey.json 
+```
+
+to the Key Mapper preset config: `.config/key-mapper/presets/USB-HID Keyboard`.
+
+*Note: a keyboard name could be different.*
+
+*Note: other config files in dir `key-mapper` of the repo are for backup purposes.*
+
+## Enable mapping
+
+Now you could open Key Mapper and chose the preset you configured.
+After that press `Apply`. And key mapping should work immediatly.
+If you want to make it default on system start enable `Autoload` switch.
+
+
+# Setup instruction for Linux with Autokey
 
 ## Requirements
 
@@ -14,12 +70,11 @@ but you could change any of them on your own using current example.*
 * GNOME Tweaks
 * AutoKey
 
-*Tested on [Pop!_OS](https://system76.com/pop) (based on Ubuntu 18.04).
-But also should work on clean Ubuntu 18.04 the same way.*
+*Tested Ubuntu 18.04.
 
 ## Change keys for a couple of default actions
 
-*Settings -> Devices -> Keyboard:*
+In Autokey itself *Settings -> Devices -> Keyboard:* 
 
 ```
 Lock screen -> Shift+Ctrl+L
@@ -34,9 +89,21 @@ Then install `GNOME Tweaks`
 $ sudo apt-get install gnome-tweak-tool
 ```
 
-Open tweak tools and choose settings:
+Open tweak tools and choose settings in
+"Keyboard & Mouse" -> "Additional Layout Options" -> "Caps Lock behavior":
 
 * Typing->Caps Lock key behavior->Make Caps Lock an additional Hyper
+
+
+## Make Control as Win
+
+Open `GNOME Tweaks`
+
+Open tweak tools and choose settings in 
+"Keyboard & Mouse" -> "Additional Layout Options" -> "Alt/Win behavior":
+
+* "Ctrl is mapped to Alt; Alt is mapped to Win"
+
 
 ## Change keyboard key bindings
 
