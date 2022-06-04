@@ -139,10 +139,21 @@ autostart:
 * Tested on macOS 10.14.4
 * Install [Karabiner](https://pqrs.org/osx/karabiner/index.html)
 
+## Enable karabiner_grabber
+
+*Source: https://github.com/pqrs-org/Karabiner-Elements/issues/3011#issuecomment-1046265810*
+
+- go to macOS settings: System Preferences -> Security & Privacy -> Input Monitoring
+- unlock to make changes
+- if you don't see `karabiner_grabber` click plus "+" button
+- add the /Library/Application Support/org.pqrs/Karabiner-Elements/bin/karabiner_grabber
+- and enable it by clicking checkbox
+
 ## Import configuration
 
-Copy the next link to the browser to import configuration into Karabiner:
-`karabiner://karabiner/assets/complex_modifications/import?url=https://raw.githubusercontent.com/abogoyavlensky/keymap/master/Karabiner/keymap.json`
+Open next links to the browser to import configuration into Karabiner:
+- [keymap-arrows.json](karabiner://karabiner/assets/complex_modifications/import?url=https://raw.githubusercontent.com/abogoyavlensky/keymap/master/Karabiner/keymap-arrows.json)
+- [keymap-f-keys.json](karabiner://karabiner/assets/complex_modifications/import?url=https://raw.githubusercontent.com/abogoyavlensky/keymap/master/Karabiner/keymap-f-keys.json)
 
 # That's it
 
