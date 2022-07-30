@@ -152,8 +152,8 @@ autostart:
 ## Import configuration
 
 Open next links to the browser to import configuration into Karabiner:
-- [keymap-arrows.json](karabiner://karabiner/assets/complex_modifications/import?url=https://raw.githubusercontent.com/abogoyavlensky/keymap/master/Karabiner/keymap-arrows.json)
-- [keymap-f-keys.json](karabiner://karabiner/assets/complex_modifications/import?url=https://raw.githubusercontent.com/abogoyavlensky/keymap/master/Karabiner/keymap-f-keys.json)
+- `karabiner://karabiner/assets/complex_modifications/import?url=https://raw.githubusercontent.com/abogoyavlensky/keymap/master/Karabiner/keymap-arrows.json`
+- `karabiner://karabiner/assets/complex_modifications/import?url=https://raw.githubusercontent.com/abogoyavlensky/keymap/master/Karabiner/keymap-f-keys.json`
 
 # That's it
 
@@ -163,6 +163,17 @@ Now your keyboard should look like on preview above.
 without delay after switching between them.*
 
 # Additional info
+
+## UK keyboard
+
+### Mapping UK keyboard signs to US
+
+- `karabiner://karabiner/assets/complex_modifications/import?url=https://raw.githubusercontent.com/abogoyavlensky/keymap/master/Karabiner/keymap-uk-pound-to-hash.json`
+
+### Reassign § key to ~
+
+- [https://github.com/pqrs-org/Karabiner-Elements/issues/1365](https://github.com/pqrs-org/Karabiner-Elements/issues/1365)
+
 
 ## To know keycode of usual keys run following command and press the key
 
