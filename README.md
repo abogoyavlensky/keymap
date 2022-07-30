@@ -155,6 +155,10 @@ Open next links to the browser to import configuration into Karabiner:
 - `karabiner://karabiner/assets/complex_modifications/import?url=https://raw.githubusercontent.com/abogoyavlensky/keymap/master/Karabiner/keymap-arrows.json`
 - `karabiner://karabiner/assets/complex_modifications/import?url=https://raw.githubusercontent.com/abogoyavlensky/keymap/master/Karabiner/keymap-f-keys.json`
 
+All enabled complex modifications should looks like this:
+
+![remap tilda key screen](Karabiner/all_complex.png)
+
 # That's it
 
 Now your keyboard should look like on preview above.
@@ -172,7 +176,9 @@ without delay after switching between them.*
 
 ### Reassign § key to ~
 
-- [https://github.com/pqrs-org/Karabiner-Elements/issues/1365](https://github.com/pqrs-org/Karabiner-Elements/issues/1365)
+_[https://github.com/pqrs-org/Karabiner-Elements/issues/1365](https://github.com/pqrs-org/Karabiner-Elements/issues/1365)_
+
+![remap tilda key screen](Karabiner/tilda.png)
 
 
 ## To know keycode of usual keys run following command and press the key
